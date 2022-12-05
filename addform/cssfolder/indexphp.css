@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contact-row{
+    display: flex;
+    background-color: #6c6a74;
+    /* margin: 20px; */
+    /* justify-content: space-around; */
+    height: 60px;
+    width: auto;
+    align-items: center;
+}
+.question-div{
+    padding-left: 30px;
+}
+.contact-div{
+    padding-left: 30px;
+}
+.contact-email{
+    padding-left: 30px;
+}
+.reg-loging{
+    display: flex;
+    position: absolute;
+    right: 100px;
+}
+button{
+    /* display: none; */
+    /* visibility: hidden; */
+    border: none;
+    background-color: #6c6a74;   
+    color: #fff;
+    font-weight: 700;
+}
+h3{
+    color: #fff;
+}
+#navbar{
+    display: flex;
+    /* margin-left: 30px; */
+    align-items: center;
+    background-color: rgba(224, 217, 217, 0.507);
+    height: 90px;
+    /* width: auto; */
+    /* position: fixed;
+    top: 60px;
+    width: 100%; */
+   
+}
+/* .sticky{
+   position: fixed;
+   top: 0px;
+   width: 100%;
+} */
+.menu{
+   margin-left: 200px;
+}
+.menu-list{
+    display: flex;
+    /* justify-content: space-around; */
+    /* display: flex;
+    justify-content: space-around; */
+    /* display: inline; */
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    margin-left: 22px;
+    
+}
+a{
+    /* list-style: none; */
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    /* size: 10px; */
+    /* background-color: rgba(241, 232, 232, 0.788); */
+    /* border: none; */
+    margin-left: 60px;
+
+}
+.IMGG{
+    /* width: 100%;
+    height: 30rem; */
+}
+.display-img{
+  /* display: flex; */
+  
+}
+.img1 img{
+    /* width: 40rem; */
+    width: 100% !important; 
+    /* !important */
+
+    height: 40rem;
+    /* display: none; */
+    /* margin-left: -90rem; */
+    /* transition: 0.6s;    */
+}
+.slide-btn{
+    position: absolute;
+    /* position: relative; */
+    /* margin-top: 100px; */
+    top: 25rem;
+}
+#next-btn{
+    /* position: relative; */
+    /* position: absolute; */
+    right: 10px;
+    /* left: 50px; */
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: #c4d1e2;
+    height: 20rem;
+    width: 100%;
+
+    /* display: grid; */
+    /* grid-template-rows: 1; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: flex;
+    justify-content: space-around;
+}
+.conta-info{
+    text-align: center;
+}
+.quick-menu{
+    margin-top: 20px;
+    text-align: center;
+}
+.useful-link{
+    margin-top: 20px;
+    text-align: center;
+}
+.notificatin{
+    margin-top: 20px;
+    text-align: center;
+}
+.quick-list{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+}
+.menu-list ul{
+    /* text-align: center; */
+}
+.conta-info h4{
+    margin-top: 20px;
+    font-weight: 700;
+}
+.contact-Icone p{
+    font-size: 2rem;
+    /* margin-bottom: 20px; */
+    
+}
+.contact-Icone{
+    display: flex;
+   
+}
