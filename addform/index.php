@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/regular.min.css" 
     integrity="sha512-k2UAKyvfA7Xd/6FrOv5SG4Qr9h4p2oaeshXF99WO3zIpCsgTJ3YZELDK0gHdlJE5ls+Mbd5HL50b458z3meB/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
         rel="stylesheet">
@@ -47,7 +48,8 @@
             <div class="menu">
                 <ul class="menu-list">
                     <li class="home"> <a href=""> Home</a></li>
-                    <li class="courses"> <a href="">Courses</a></li>
+                    <li class="courses"> <a href="">Courses</a>
+                       
                     <li class="addmisson"><a href="">Addmisson</a></li>
                     <li class="result"><a href="">Result</a></li>
                     <li class="about"><a href="">About</a></li>
@@ -55,7 +57,7 @@
             </div>
         </div>
 
-        
+
         <div>
             <div class="img1">
                 <img class="IMGG" id="IMG1" src="images/capm1.jpg" alt="">
@@ -72,6 +74,65 @@
             <button onclick="next()">NEXT</button>
         </div>
 
+
+        <div class="course-selection">
+            <h1>Choose your course</h1>
+
+            <div class="coure-para">
+                <p>Suspendisse tincidunt magna eget massa hendrerit efficitur. Ut euismod pellentesque imperdiet.Cras laoreet gravida lectus,<br>
+                     at viverra lorem venenatis in.  Aenean id varius quam. Nullam bibendum interdum dui, ac tempor loremconvallis ut
+                    </p>
+            </div>
+
+            <div class="course-search">
+                <div class="search-field">
+                    <input type="text" placeholder="course">
+                </div>
+
+                <div class="search-field">
+                    <input type="text" placeholder="level">
+                </div>
+
+                <div class="search-button">
+                    <input type="button" value="SEARCH COURES" id>
+                    <input type="button" id="arrow-btn" value=">">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="card" style="width: 18rem;">
+                <img src="images/cour1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">LEARN MORE</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="images/cour2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">LEARN MORE</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="images/cour3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">LEARN MORE</a>
+                </div>
+            </div>
+
+        </div>
         <div class="footer">
             <div class="conta-info">
                 <h4>Contact</h4>
@@ -83,7 +144,7 @@
                     <p><i class="fa-brands fa-twitter"></i></p>
                 </div>
             </div>
-        
+
 
             <div class="quick-menu">
 
@@ -119,9 +180,10 @@
                         pattern to be written in <br>
                         a more compact form.</p>
 
-                        <p><span>*</span>Please fiil own examination <br>
+                    <p><span>*</span>Please fiil own examination <br>
                         as soon posible, after finished date of
-                    <br> examination form will be not second chance.</p>
+                        <br> examination form will be not second chance.
+                    </p>
                 </div>
             </div>
         </div>
